@@ -94,6 +94,6 @@ def correct_text():
     except Exception as e:
         logging.error(f"Unexpected error: {e}")
         return jsonify({"error": "An unexpected error occurred. Please try again later."}), 500
-
+    except
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
